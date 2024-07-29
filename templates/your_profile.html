@@ -1,0 +1,28 @@
+{% extends "alfa.html"%}
+{% load static%}
+{% block body%}
+<div class="your_profile_container">
+<h2>Your Profile</h2>
+<h1> Welcome {{ request.user.first_name}}</h1>
+
+<br><br>
+{% if request.user.is_superuser%}
+<h1>Add New Doctor</h1>
+<form  method="POST">
+    {%  csrf_token %}
+    {{form.as_p}}
+    
+    <button type="submit">ADD</button>
+    </form>
+
+{% endif %}
+
+
+
+ 
+
+
+
+</div>
+
+{% endblock body%}

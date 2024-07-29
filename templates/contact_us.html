@@ -1,0 +1,119 @@
+{% extends "alfa.html" %}
+{% load static %}
+
+{% block body%}
+
+<main>
+    <section class="background_contactus">
+      <div class="container_contactus">
+        <div class="content">
+          <h1>Contact Us</h1>
+          <nav aria-label="Breadcrumb">
+            <ol class="breadcrumb">
+              <li><a href="#" class="breadcrumb-item">Home</a></li>
+              <li><i class="fas fa-chevron-right"></i></li>
+              <li>
+                <a href="#" class="breadcrumb-item active">Contact Us</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <div class="main_section">
+       <section class="section-left">
+        <div class="left-content">
+        <h1>Get in Touch</h1>
+        <p>
+          Using it can make you sound like you have been studying English for
+          a long time. Here’s the challenge.
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <img src="{% static '/images/contactus/location-icon.svg' %}" alt="" />
+            <div class="contact-text">
+              <p>Location</p>
+              <div class="contact-address">
+                <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
+              </div>
+            </div>
+          </div>
+          <div class="middle-line-1"></div>
+          <div class="contact-item">
+            <img src="{% static '/images/contactus/phone-icon.svg' %}" alt="" />
+            <div class="contact-text">
+              <p>Phone Number</p>
+              <div class="contact-phone">
+                <p>(319) 555-0115</p>
+              </div>
+            </div>
+          </div>
+          <div class="middle-line-1"></div>
+          <div class="contact-item">
+            <img src="{% static '/images/contactus/follow us-icon.svg' %}" alt="" />
+            <div class="contact-text">
+              <p>Follow Us</p>
+              <div class="contactus_social_icons">
+                <a href="#"><img src="{% static '/images/contactus/fb.svg' %}"        alt="" /></a>
+                <a href="#"><img src="{% static '/images/contactus/instagram.svg' %}" alt="" /></a>
+                <a href="#"><img src="{% static '/images/contactus/twitter.svg' %}"   alt="" /></a>
+                <a href="#"><img src="{% static '/images/contactus/linkedln.svg' %}"  alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="middle-line-1"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section-right">
+      <div class="right-content">
+        <form class="contactus_form" action="#" method="POST">
+          <div class="contactus_form_group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+          </div>
+          <div class="contactus_form_group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+          <div class="contactus_form_group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter Phone Number"
+              required
+            />
+          </div>
+          <div class="contactus_form_group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Enter Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Enquiry</button>
+        </form>
+      </div>
+    </section>
+    </div>
+   
+  </main>
+{% endblock body%}

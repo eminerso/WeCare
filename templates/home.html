@@ -1,0 +1,545 @@
+{% extends "alfa.html" %}
+{% load static %}
+
+{%block body%}
+
+<body>
+    <div class="hero_main">
+      <div class="hero_section">
+        <div class="hero_part1">
+          <p class="certificated">CERTIFICATED DOCTORS 👨‍⚕️</p>
+          <div class="take_care">
+             <p >We Take Care of
+            Your Healthy Health 
+            </p>
+          </div>
+         
+        <div class="maps">
+            <div class="map">
+                <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Huge-icon/files and folder/outline/file 01">
+                    <path id="Vector" d="M7 22.5C8.86748 22.5 10.4361 21.2202 10.8766 19.4899C11.0128 18.9547 11.4477 18.5 12 18.5H19M7 22.5C4.79086 22.5 3 20.7091 3 18.5V5.5C3 3.84315 4.34315 2.5 6 2.5H16C17.6569 2.5 19 3.84315 19 5.5V18.5M7 22.5H19C20.8675 22.5 22.4361 21.2202 22.8766 19.4899C23.0128 18.9547 22.5523 18.5 22 18.5H19M15 7.5H7M11 12.5H7" stroke="#50945D" stroke-width="1.5" stroke-linecap="round"/>
+                    </g>
+                    </svg></button>
+                <div class="map_texts">
+                    <h3 >Get Free Consultation</h3>
+                    <p >It is a long established</p>
+                </div>
+
+            </div>
+            <div class="map">
+                <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Huge-icon/user/outline/user-rectangle">
+                    <circle id="Ellipse 321" cx="3" cy="3" r="3" transform="matrix(1 0 0 -1 9 12.5)" stroke="#50945D" stroke-width="1.5" stroke-linejoin="round"/>
+                    <path id="Vector" d="M18.9989 22.3743C20.7247 21.9306 22 20.3642 22 18.5V6.5C22 4.29086 20.2091 2.5 18 2.5H6C3.79086 2.5 2 4.29086 2 6.5V18.5C2 20.3642 3.27532 21.9306 5.00111 22.3743M18.9989 22.3743C18.6796 22.4563 18.3449 22.5 18 22.5H6C5.6551 22.5 5.32039 22.4563 5.00111 22.3743M18.9989 22.3743C18.9318 18.5663 15.824 15.5 12 15.5C8.17601 15.5 5.06818 18.5663 5.00111 22.3743" stroke="#50945D" stroke-width="1.5"/>
+                    </g>
+                    </svg></button>
+                <div class="map_texts">
+                    <h3>Find the Best Doctors</h3>
+                    <p>It is a long established</p>
+                </div>
+
+            </div>
+            <div class="map">
+                <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Huge-icon/files and folder/outline/file-accept 01">
+                    <path id="Vector" d="M3 18.5H2.25H3ZM3 6.5H3.75H3ZM7 2.5V1.75V2.5ZM17 2.5V1.75V2.5ZM21 6.5H20.25H21ZM21 12.8431H21.75H21ZM11.3431 22.5V21.75V22.5ZM7 22.5V23.25V22.5ZM19.8284 15.6716L19.2981 15.1412V15.1412L19.8284 15.6716ZM14.1716 21.3284L14.7019 21.8588L14.1716 21.3284ZM13 18.5H12.25H13ZM17 14.5V13.75V14.5ZM9.46852 7.91435C9.14508 7.65559 8.67311 7.70803 8.41435 8.03148C8.15559 8.35493 8.20803 8.82689 8.53148 9.08565L9.46852 7.91435ZM10.7528 9.90226L10.2843 10.4879L10.7528 9.90226ZM12.1301 9.77989L11.5657 9.28602H11.5657L12.1301 9.77989ZM15.5644 6.99388C15.8372 6.68215 15.8056 6.20833 15.4939 5.93557C15.1822 5.66281 14.7083 5.69439 14.4356 6.00612L15.5644 6.99388ZM3.75 18.5L3.75 6.5H2.25L2.25 18.5H3.75ZM7 3.25L17 3.25V1.75L7 1.75V3.25ZM20.25 6.5V12.8431H21.75V6.5H20.25ZM11.3431 21.75H7V23.25H11.3431V21.75ZM19.2981 15.1412L13.6412 20.7981L14.7019 21.8588L20.3588 16.2019L19.2981 15.1412ZM11.3431 23.25C12.6029 23.25 13.8111 22.7496 14.7019 21.8588L13.6412 20.7981C13.0317 21.4076 12.2051 21.75 11.3431 21.75V23.25ZM20.25 12.8431C20.25 13.7051 19.9076 14.5318 19.2981 15.1412L20.3588 16.2019C21.2496 15.3111 21.75 14.1029 21.75 12.8431H20.25ZM3.75 6.5C3.75 4.70507 5.20508 3.25 7 3.25V1.75C4.37665 1.75 2.25 3.87665 2.25 6.5H3.75ZM2.25 18.5C2.25 21.1234 4.37665 23.25 7 23.25V21.75C5.20507 21.75 3.75 20.2949 3.75 18.5H2.25ZM17 3.25C18.7949 3.25 20.25 4.70508 20.25 6.5H21.75C21.75 3.87665 19.6234 1.75 17 1.75V3.25ZM13.75 22.5V18.5H12.25V22.5H13.75ZM17 15.25L21 15.25V13.75L17 13.75V15.25ZM13.75 18.5C13.75 16.7051 15.2051 15.25 17 15.25V13.75C14.3766 13.75 12.25 15.8766 12.25 18.5H13.75ZM8.53148 9.08565L10.2843 10.4879L11.2213 9.31661L9.46852 7.91435L8.53148 9.08565ZM12.6945 10.2738L15.5644 6.99388L14.4356 6.00612L11.5657 9.28602L12.6945 10.2738ZM10.2843 10.4879C11.0156 11.0729 12.0778 10.9786 12.6945 10.2738L11.5657 9.28602C11.4776 9.3867 11.3258 9.40018 11.2213 9.31661L10.2843 10.4879Z" fill="#50945D"/>
+                    </g>
+                    </svg></button>
+                <div class="map_texts">
+                    <h3>Book an Appointment</h3>
+                    <p>It is a long established</p>
+                </div>
+
+            </div>
+            <div class="map">
+                <button><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Huge-icon/communication/outline/chat 02">
+                    <path id="Vector" d="M8 10.5H16M8 14.5H12M11 3.5H13C17.9706 3.5 22 7.52944 22 12.5C22 17.4706 17.9706 21.5 13 21.5H6C3.79086 21.5 2 19.7091 2 17.5V12.5C2 7.52944 6.02944 3.5 11 3.5Z" stroke="#50945D" stroke-width="1.5" stroke-linecap="round"/>
+                    </g>
+                    </svg></button>
+                <div class="map_texts">
+                    <h3>Ask your Questions</h3>
+                    <p>It is a long established</p>
+                </div>
+
+            </div>
+        </div>
+        <button class="get_in_touch"> Get in Touch</button>
+
+        </div>
+        <div class="hero_part2">
+            <div class="hero_part2_img">
+                <img src="{% static 'images/home/hero_doctor.png'%}" alt="img">
+                
+                <div class="hero_part2_svg1">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="568" height="568" viewBox="0 0 568 568" fill="none">
+                    <path d="M568 568C568 254.302 313.698 -1.11159e-05 0 -2.48281e-05L-2.48281e-05 568L568 568Z" fill="#50945D"/>
+                </svg>
+                </div>
+                <div class="hero_part2_svg2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="69" height="140" viewBox="0 0 69 140" fill="none">
+                    <path d="M64.3306 137.243C64.5306 136.143 65.6307 135.343 66.7307 135.543C67.8307 135.743 68.6307 136.843 68.4307 137.943C68.2307 139.043 67.1307 139.843 66.0307 139.643C64.8307 139.443 64.1306 138.343 64.3306 137.243Z" fill="#50945D"/>
+                    <path d="M48.2306 137.243C48.4306 136.143 49.5306 135.343 50.6306 135.543C51.7306 135.743 52.5306 136.843 52.3306 137.943C52.1306 139.043 51.0306 139.843 49.9306 139.643C48.8306 139.443 48.0306 138.343 48.2306 137.243Z" fill="#50945D"/>
+                    <path d="M32.2306 137.243C32.4306 136.143 33.5306 135.343 34.6306 135.543C35.7306 135.743 36.5306 136.843 36.3306 137.943C36.1306 139.043 35.0306 139.843 33.9306 139.643C32.7306 139.443 31.9306 138.343 32.2306 137.243Z" fill="#50945D"/>
+                    <path d="M16.1307 137.243C16.3307 136.143 17.4307 135.343 18.5307 135.543C19.6307 135.743 20.4307 136.843 20.2307 137.943C20.0307 139.043 18.9307 139.843 17.8307 139.643C16.6307 139.443 15.9307 138.343 16.1307 137.243Z" fill="#50945D"/>
+                    <path d="M0.03066 137.243C0.23066 136.143 1.33068 135.343 2.43068 135.543C3.53068 135.743 4.33064 136.843 4.13064 137.943C3.93064 139.043 2.83067 139.843 1.73067 139.643C0.630672 139.443 -0.16934 138.343 0.03066 137.243Z" fill="#50945D"/>
+                    <path d="M64.3306 123.743C64.5306 122.643 65.6307 121.843 66.7307 122.043C67.8307 122.243 68.6307 123.343 68.4307 124.443C68.2307 125.543 67.1307 126.343 66.0307 126.143C64.8307 125.943 64.1306 124.843 64.3306 123.743Z" fill="#50945D"/>
+                    <path d="M48.2306 123.743C48.4306 122.643 49.5306 121.843 50.6306 122.043C51.7306 122.243 52.5306 123.343 52.3306 124.443C52.1306 125.543 51.0306 126.343 49.9306 126.143C48.8306 125.943 48.0306 124.843 48.2306 123.743Z" fill="#50945D"/>
+                    <path d="M32.2306 123.743C32.4306 122.643 33.5306 121.843 34.6306 122.043C35.7306 122.243 36.5306 123.343 36.3306 124.443C36.1306 125.543 35.0306 126.343 33.9306 126.143C32.7306 125.943 31.9306 124.843 32.2306 123.743Z" fill="#50945D"/>
+                    <path d="M16.1307 123.743C16.3307 122.643 17.4307 121.843 18.5307 122.043C19.6307 122.243 20.4307 123.343 20.2307 124.443C20.0307 125.543 18.9307 126.343 17.8307 126.143C16.6307 125.943 15.9307 124.843 16.1307 123.743Z" fill="#50945D"/>
+                    <path d="M0.03066 123.743C0.23066 122.643 1.33068 121.843 2.43068 122.043C3.53068 122.243 4.33064 123.343 4.13064 124.443C3.93064 125.543 2.83067 126.343 1.73067 126.143C0.630672 125.943 -0.16934 124.843 0.03066 123.743Z" fill="#50945D"/>
+                    <path d="M64.3306 110.143C64.5306 109.043 65.6307 108.243 66.7307 108.443C67.8307 108.643 68.6307 109.743 68.4307 110.843C68.2307 111.943 67.1307 112.743 66.0307 112.543C64.8307 112.343 64.1306 111.343 64.3306 110.143Z" fill="#50945D"/>
+                    <path d="M48.2306 110.143C48.4306 109.043 49.5306 108.243 50.6306 108.443C51.7306 108.643 52.5306 109.743 52.3306 110.843C52.1306 111.943 51.0306 112.743 49.9306 112.543C48.8306 112.343 48.0306 111.343 48.2306 110.143Z" fill="#50945D"/>
+                    <path d="M32.2306 110.143C32.4306 109.043 33.5306 108.243 34.6306 108.443C35.7306 108.643 36.5306 109.743 36.3306 110.843C36.1306 111.943 35.0306 112.743 33.9306 112.543C32.7306 112.343 31.9306 111.343 32.2306 110.143Z" fill="#50945D"/>
+                    <path d="M16.1307 110.143C16.3307 109.043 17.4307 108.243 18.5307 108.443C19.6307 108.643 20.4307 109.743 20.2307 110.843C20.0307 111.943 18.9307 112.743 17.8307 112.543C16.6307 112.343 15.9307 111.343 16.1307 110.143Z" fill="#50945D"/>
+                    <path d="M0.03066 110.143C0.23066 109.043 1.33068 108.243 2.43068 108.443C3.53068 108.643 4.33064 109.743 4.13064 110.843C3.93064 111.943 2.83067 112.743 1.73067 112.543C0.630672 112.343 -0.16934 111.343 0.03066 110.143Z" fill="#50945D"/>
+                    <path d="M64.3306 96.643C64.5306 95.543 65.6307 94.743 66.7307 94.943C67.8307 95.143 68.6307 96.243 68.4307 97.343C68.2307 98.443 67.1307 99.243 66.0307 99.043C64.8307 98.843 64.1306 97.743 64.3306 96.643Z" fill="#50945D"/>
+                    <path d="M48.2306 96.643C48.4306 95.543 49.5306 94.743 50.6306 94.943C51.7306 95.143 52.5306 96.243 52.3306 97.343C52.1306 98.443 51.0306 99.243 49.9306 99.043C48.8306 98.843 48.0306 97.743 48.2306 96.643Z" fill="#50945D"/>
+                    <path d="M32.2306 96.643C32.4306 95.543 33.5306 94.743 34.6306 94.943C35.7306 95.143 36.5306 96.243 36.3306 97.343C36.1306 98.443 35.0306 99.243 33.9306 99.043C32.7306 98.843 31.9306 97.743 32.2306 96.643Z" fill="#50945D"/>
+                    <path d="M16.1307 96.643C16.3307 95.543 17.4307 94.743 18.5307 94.943C19.6307 95.143 20.4307 96.243 20.2307 97.343C20.0307 98.443 18.9307 99.243 17.8307 99.043C16.6307 98.843 15.9307 97.743 16.1307 96.643Z" fill="#50945D"/>
+                    <path d="M0.03066 96.643C0.23066 95.543 1.33068 94.743 2.43068 94.943C3.53068 95.143 4.33064 96.243 4.13064 97.343C3.93064 98.443 2.83067 99.243 1.73067 99.043C0.630672 98.843 -0.16934 97.743 0.03066 96.643Z" fill="#50945D"/>
+                    <path d="M64.3306 83.143C64.5306 82.043 65.6307 81.243 66.7307 81.443C67.8307 81.643 68.6307 82.743 68.4307 83.843C68.2307 84.943 67.1307 85.743 66.0307 85.543C64.8307 85.343 64.1306 84.243 64.3306 83.143Z" fill="#50945D"/>
+                    <path d="M48.2306 83.143C48.4306 82.043 49.5306 81.243 50.6306 81.443C51.7306 81.643 52.5306 82.743 52.3306 83.843C52.1306 84.943 51.0306 85.743 49.9306 85.543C48.8306 85.343 48.0306 84.243 48.2306 83.143Z" fill="#50945D"/>
+                    <path d="M32.2306 83.143C32.4306 82.043 33.5306 81.243 34.6306 81.443C35.7306 81.643 36.5306 82.743 36.3306 83.843C36.1306 84.943 35.0306 85.743 33.9306 85.543C32.7306 85.343 31.9306 84.243 32.2306 83.143Z" fill="#50945D"/>
+                    <path d="M16.1307 83.143C16.3307 82.043 17.4307 81.243 18.5307 81.443C19.6307 81.643 20.4307 82.743 20.2307 83.843C20.0307 84.943 18.9307 85.743 17.8307 85.543C16.6307 85.343 15.9307 84.243 16.1307 83.143Z" fill="#50945D"/>
+                    <path d="M0.03066 83.143C0.23066 82.043 1.33068 81.243 2.43068 81.443C3.53068 81.643 4.33064 82.743 4.13064 83.843C3.93064 84.943 2.83067 85.743 1.73067 85.543C0.630672 85.343 -0.16934 84.243 0.03066 83.143Z" fill="#50945D"/>
+                    <path d="M64.3306 69.5431C64.5306 68.4431 65.6307 67.6432 66.7307 67.8432C67.8307 68.0432 68.6307 69.1431 68.4307 70.2431C68.2307 71.3431 67.1307 72.1431 66.0307 71.9431C64.8307 71.8431 64.1306 70.7431 64.3306 69.5431Z" fill="#50945D"/>
+                    <path d="M48.2306 69.5431C48.4306 68.4431 49.5306 67.6432 50.6306 67.8432C51.7306 68.0432 52.5306 69.1431 52.3306 70.2431C52.1306 71.3431 51.0306 72.1431 49.9306 71.9431C48.8306 71.8431 48.0306 70.7431 48.2306 69.5431Z" fill="#50945D"/>
+                    <path d="M32.2306 69.5431C32.4306 68.4431 33.5306 67.6432 34.6306 67.8432C35.7306 68.0432 36.5306 69.1431 36.3306 70.2431C36.1306 71.3431 35.0306 72.1431 33.9306 71.9431C32.7306 71.8431 31.9306 70.7431 32.2306 69.5431Z" fill="#50945D"/>
+                    <path d="M16.1307 69.5431C16.3307 68.4431 17.4307 67.6432 18.5307 67.8432C19.6307 68.0432 20.4307 69.1431 20.2307 70.2431C20.0307 71.3431 18.9307 72.1431 17.8307 71.9431C16.6307 71.8431 15.9307 70.7431 16.1307 69.5431Z" fill="#50945D"/>
+                    <path d="M0.03066 69.5431C0.23066 68.4431 1.33068 67.6432 2.43068 67.8432C3.53068 68.0432 4.33064 69.1431 4.13064 70.2431C3.93064 71.3431 2.83067 72.1431 1.73067 71.9431C0.630672 71.8431 -0.16934 70.7431 0.03066 69.5431Z" fill="#50945D"/>
+                    <path d="M64.3306 56.0431C64.5306 54.9431 65.6307 54.1432 66.7307 54.3432C67.8307 54.5432 68.6307 55.6431 68.4307 56.7431C68.2307 57.8431 67.1307 58.6431 66.0307 58.4431C64.8307 58.2431 64.1306 57.1431 64.3306 56.0431Z" fill="#50945D"/>
+                    <path d="M48.2306 56.0431C48.4306 54.9431 49.5306 54.1432 50.6306 54.3432C51.7306 54.5432 52.5306 55.6431 52.3306 56.7431C52.1306 57.8431 51.0306 58.6431 49.9306 58.4431C48.8306 58.2431 48.0306 57.1431 48.2306 56.0431Z" fill="#50945D"/>
+                    <path d="M32.2306 56.0431C32.4306 54.9431 33.5306 54.1432 34.6306 54.3432C35.7306 54.5432 36.5306 55.6431 36.3306 56.7431C36.1306 57.8431 35.0306 58.6431 33.9306 58.4431C32.7306 58.2431 31.9306 57.1431 32.2306 56.0431Z" fill="#50945D"/>
+                    <path d="M16.1307 56.0431C16.3307 54.9431 17.4307 54.1432 18.5307 54.3432C19.6307 54.5432 20.4307 55.6431 20.2307 56.7431C20.0307 57.8431 18.9307 58.6431 17.8307 58.4431C16.6307 58.2431 15.9307 57.1431 16.1307 56.0431Z" fill="#50945D"/>
+                    <path d="M0.03066 56.0431C0.23066 54.9431 1.33068 54.1432 2.43068 54.3432C3.53068 54.5432 4.33064 55.6431 4.13064 56.7431C3.93064 57.8431 2.83067 58.6431 1.73067 58.4431C0.630672 58.2431 -0.16934 57.1431 0.03066 56.0431Z" fill="#50945D"/>
+                    <path d="M64.3306 42.5431C64.5306 41.4431 65.6307 40.6432 66.7307 40.8432C67.8307 41.0432 68.6307 42.1431 68.4307 43.2431C68.2307 44.3431 67.1307 45.1431 66.0307 44.9431C64.8307 44.7431 64.1306 43.6431 64.3306 42.5431Z" fill="#50945D"/>
+                    <path d="M48.2306 42.5431C48.4306 41.4431 49.5306 40.6432 50.6306 40.8432C51.7306 41.0432 52.5306 42.1431 52.3306 43.2431C52.1306 44.3431 51.0306 45.1431 49.9306 44.9431C48.8306 44.7431 48.0306 43.6431 48.2306 42.5431Z" fill="#50945D"/>
+                    <path d="M32.2306 42.5431C32.4306 41.4431 33.5306 40.6432 34.6306 40.8432C35.7306 41.0432 36.5306 42.1431 36.3306 43.2431C36.1306 44.3431 35.0306 45.1431 33.9306 44.9431C32.7306 44.7431 31.9306 43.6431 32.2306 42.5431Z" fill="#50945D"/>
+                    <path d="M16.1307 42.5431C16.3307 41.4431 17.4307 40.6432 18.5307 40.8432C19.6307 41.0432 20.4307 42.1431 20.2307 43.2431C20.0307 44.3431 18.9307 45.1431 17.8307 44.9431C16.6307 44.7431 15.9307 43.6431 16.1307 42.5431Z" fill="#50945D"/>
+                    <path d="M0.03066 42.5431C0.23066 41.4431 1.33068 40.6432 2.43068 40.8432C3.53068 41.0432 4.33064 42.1431 4.13064 43.2431C3.93064 44.3431 2.83067 45.1431 1.73067 44.9431C0.630672 44.7431 -0.16934 43.6431 0.03066 42.5431Z" fill="#50945D"/>
+                    <path d="M64.3306 29.0429C64.5306 27.9429 65.6307 27.1429 66.7307 27.3429C67.8307 27.5429 68.6307 28.6429 68.4307 29.7429C68.2307 30.8429 67.1307 31.6429 66.0307 31.4429C64.8307 31.2429 64.1306 30.1429 64.3306 29.0429Z" fill="#50945D"/>
+                    <path d="M50.3306 27.2429C49.1708 27.2429 48.2307 28.1831 48.2307 29.3429C48.2307 30.5027 49.1708 31.4429 50.3306 31.4429C51.4904 31.4429 52.4307 30.5027 52.4307 29.3429C52.4307 28.1831 51.4904 27.2429 50.3306 27.2429Z" fill="#50945D"/>
+                    <path d="M33.9844 27.2828C32.8353 27.4393 32.0306 28.4979 32.1872 29.647C32.3438 30.7961 33.4023 31.6007 34.5514 31.4441C35.7006 31.2876 36.5052 30.2291 36.3486 29.08C36.192 27.9309 35.1336 27.1262 33.9844 27.2828Z" fill="#50945D"/>
+                    <path d="M16.1306 29.0429C16.3306 27.9429 17.4306 27.1429 18.5306 27.3429C19.6306 27.5429 20.4306 28.6429 20.2306 29.7429C20.0306 30.8429 18.9306 31.6429 17.8306 31.4429C16.6306 31.2429 15.9306 30.1429 16.1306 29.0429Z" fill="#50945D"/>
+                    <path d="M0.03066 29.0429C0.23066 27.9429 1.33068 27.1429 2.43068 27.3429C3.53068 27.5429 4.33064 28.6429 4.13064 29.7429C3.93064 30.8429 2.83067 31.6429 1.73067 31.4429C0.630672 31.2429 -0.16934 30.1429 0.03066 29.0429Z" fill="#50945D"/>
+                    <path d="M64.3306 15.4433C64.5306 14.3433 65.6307 13.5432 66.7307 13.7432C67.8307 13.9432 68.6307 15.0433 68.4307 16.1433C68.2307 17.2433 67.1307 18.0433 66.0307 17.8433C64.8307 17.6433 64.1306 16.6433 64.3306 15.4433Z" fill="#50945D"/>
+                    <path d="M50.3306 13.7431C49.1708 13.7431 48.2307 14.6833 48.2307 15.8431C48.2307 17.0029 49.1708 17.9431 50.3306 17.9431C51.4904 17.9431 52.4307 17.0029 52.4307 15.8431C52.4307 14.6833 51.4904 13.7431 50.3306 13.7431Z" fill="#50945D"/>
+                    <path d="M33.9887 13.7833C32.8396 13.9398 32.0349 14.9984 32.1915 16.1475C32.3481 17.2966 33.4066 18.1012 34.5557 17.9446C35.7048 17.7881 36.5094 16.7296 36.3529 15.5805C36.1963 14.4313 35.1378 13.6267 33.9887 13.7833Z" fill="#50945D"/>
+                    <path d="M16.1306 15.4433C16.3306 14.3433 17.4306 13.5432 18.5306 13.7432C19.6306 13.9432 20.4306 15.0433 20.2306 16.1433C20.0306 17.2433 18.9306 18.0433 17.8306 17.8433C16.6306 17.6433 15.9306 16.6433 16.1306 15.4433Z" fill="#50945D"/>
+                    <path d="M0.03066 15.4433C0.23066 14.3433 1.33068 13.5432 2.43068 13.7432C3.53068 13.9432 4.33064 15.0433 4.13064 16.1433C3.93064 17.2433 2.83067 18.0433 1.73067 17.8433C0.630672 17.6433 -0.16934 16.6433 0.03066 15.4433Z" fill="#50945D"/>
+                    <path d="M64.3306 1.94326C64.5306 0.84326 65.6307 0.043248 66.7307 0.243248C67.8307 0.443248 68.6307 1.54327 68.4307 2.64327C68.2307 3.74327 67.1307 4.54328 66.0307 4.34328C64.8307 4.14328 64.1306 3.04326 64.3306 1.94326Z" fill="#50945D"/>
+                    <path d="M50.3306 0.243103C49.1708 0.243103 48.2307 1.18334 48.2307 2.34314C48.2307 3.50294 49.1708 4.44312 50.3306 4.44312C51.4904 4.44312 52.4307 3.50294 52.4307 2.34314C52.4307 1.18334 51.4904 0.243103 50.3306 0.243103Z" fill="#50945D"/>
+                    <path d="M33.993 0.283746C32.8438 0.440319 32.0392 1.49884 32.1958 2.64797C32.3523 3.7971 33.4108 4.60169 34.56 4.44512C35.7091 4.28855 36.5137 3.23009 36.3571 2.08097C36.2006 0.931837 35.1421 0.127173 33.993 0.283746Z" fill="#50945D"/>
+                    <path d="M16.1306 1.94326C16.3306 0.84326 17.4306 0.043248 18.5306 0.243248C19.6306 0.443248 20.4306 1.54327 20.2306 2.64327C20.0306 3.74327 18.9306 4.54328 17.8306 4.34328C16.6306 4.14328 15.9306 3.04326 16.1306 1.94326Z" fill="#50945D"/>
+                    <path d="M0.03066 1.94326C0.23066 0.84326 1.33068 0.043248 2.43068 0.243248C3.53068 0.443248 4.33064 1.54327 4.13064 2.64327C3.93064 3.74327 2.83067 4.54328 1.73067 4.34328C0.630672 4.14328 -0.16934 3.04326 0.03066 1.94326Z" fill="#50945D"/>
+                </svg>
+                </div>
+                
+               
+                
+            </div>
+            <div class="quick_view">
+
+                <div class="quick_view_head">
+                    <div>
+                        <h4>Available Doctors</>
+                        <p>Select Doctors</p>
+                    </div>
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12Z" stroke="#0E140F" stroke-width="1.5"/>
+                        <path d="M14 4C14 5.10457 13.1046 6 12 6C10.8954 6 10 5.10457 10 4C10 2.89543 10.8954 2 12 2C13.1046 2 14 2.89543 14 4Z" stroke="#0E140F" stroke-width="1.5"/>
+                        <path d="M14 20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20C10 18.8954 10.8954 18 12 18C13.1046 18 14 18.8954 14 20Z" stroke="#0E140F" stroke-width="1.5"/>
+                        </svg></a>
+                </div>
+                <div class="quick_view_doctors">
+                    <div class="quick_view_doctor">
+                        <img src="{% static 'images/home/johnson.png'%}" alt="">
+                        <div>
+                            <h3>Dr. Johnson Fox</h3>
+                            <p>Neurology</p>
+                        </div>
+                    </div>
+                    <div class="quick_view_doctor">
+                        <img src="{% static 'images/home/alexa.png'%}" alt="">
+                        <div>
+                            <h3>Dr. Alexa Mate</h3>
+                            <p>Gynecology</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+      </div>  
+    
+    <div class="main_best_quality_service">
+    <div class="best_quality_service">
+        <h1>The Best Quality Service</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</span>
+        <div class="best_quality_service_carts">
+            <div class="carts_part1">
+                 <div class="best_quality_service_cart">
+                  <button class="service_cart_logo">
+                    <img src="{% static '/logos/Primary Care.png'%}" alt="">
+                </button>
+                <h2>Primary Care</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+                  </div>
+                 <div class="best_quality_service_cart">
+                <button class="service_cart_logo">
+                    <img src="{% static 'logos/Heart Care.png'%}" alt="">
+                </button>
+                <h2>Heart Care</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+                 </div>
+                 <div class="best_quality_service_cart">
+                <button class="service_cart_logo">
+                    <img src="{% static 'logos/Neurology.png'%}" alt="">
+                </button>
+                <h2>Neurology</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+                 </div>
+            </div>
+            <div class="carts_part2">
+                <div class="best_quality_service_cart">
+                <button class="service_cart_logo">
+                    <img src="{% static 'logos/cardiology.png'%}" alt="">
+                </button>
+                <h2>Cardiology</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+                  </div>
+               <div class="best_quality_service_cart">
+                <button class="service_cart_logo">
+                    <img src="{% static 'logos/Orthopaedics.png'%}" alt="">
+                </button>
+                <h2>Orthopaedics</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+               </div>
+               <div class="best_quality_service_cart">
+                <button class="service_cart_logo">
+                    <img src="{% static 'logos/Mental Health.png'%}" alt="">
+                </button>
+                <h2>Mental Health</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet tempus felis vitae sit est quisque.</p>
+                <a href="">Learn more 
+                    <img class="arrow_right" src="{% static 'logos/arrow right.png'%}" alt="">
+                    </a>
+               </div>
+            </div>
+            
+        
+        </div>
+    </div>
+    </div>
+
+    <div class="favorite_doctor">
+
+        <div class="favorite_doctor_part1">
+            <div class="div_spec">
+                <img class="spec" src="{% static 'logos/spec (1).png'%}" alt="">
+            </div>
+            
+            <img class="favorite_doctor_img" src="{% static 'images/home/handsome-young-doctor-.png'%}" alt="">
+            <svg class="doctor_background" xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" fill="none">
+                <path d="M0 0H353.704C445.547 0 520 74.4534 520 166.296V520H166.296C74.4535 520 0 445.547 0 353.704V0Z" fill="#50945D" fill-opacity="0.1"/>
+            </svg>
+            <div class="favorite_doctor_quick_view">
+                <h2>100+ Patients</h2>
+                <div class="reviews">
+                     <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M10.0328 3.27141C10.8375 1.5762 13.1625 1.5762 13.9672 3.27141L15.3579 6.20118C15.6774 6.87435 16.2951 7.34094 17.0096 7.44888L20.1193 7.91869C21.9187 8.19053 22.6371 10.4895 21.3351 11.8091L19.0849 14.0896C18.5679 14.6136 18.332 15.3685 18.454 16.1084L18.9852 19.3285C19.2926 21.1918 17.4116 22.6126 15.8022 21.7329L13.0208 20.2126C12.3817 19.8633 11.6183 19.8633 10.9792 20.2126L8.19776 21.7329C6.58839 22.6126 4.70742 21.1918 5.01479 19.3286L5.54599 16.1084C5.66804 15.3685 5.43211 14.6136 4.91508 14.0896L2.66488 11.8091C1.36287 10.4895 2.08133 8.19053 3.88066 7.91869L6.99037 7.44888C7.70489 7.34094 8.32257 6.87435 8.64211 6.20118L10.0328 3.27141Z" fill="#50945D"/>
+                </svg>
+                <span>5.0(141 Reviews)</span>
+                </div>
+               
+                <div class="favorite_doctor_part2_images">
+                    <img style="position: absolute;left:0; "     src="{% static 'images/home/Ellipse 1211.png'%}" alt="">
+                    <img style="position: absolute;left:30px; "  src="{% static 'images/home/Ellipse 1212.png'%}" alt="">
+                    <img style="position: absolute;left:60px; "  src="{% static 'images/home/Ellipse 1213.png'%}" alt="">
+                    <img style="position: absolute;left:90px; "  src="{% static 'images/home/Ellipse 1214.png'%}" alt="">
+                    <img style="position: absolute;left:120px; " src="{% static 'images/home/Ellipse 1215.png'%}" alt="">
+                    <button style="position: absolute;left:150px; " class="review_btn">+8</button>
+                    
+                    
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="favorite_doctor_part2">
+            <div class="favorite_doctor_part2_div">
+                 <p>Favourite Doctor</p>
+               <h1>Choose Your Favourite Doctor for Your Health</h1>
+            <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</span>
+           
+            </div>
+            <div class="wecare">
+                    <div class="green_line"></div>
+                    <div class="wecare_texts">
+                        <div class="wecare_text_svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 12L10.5347 14.2812C10.9662 14.6696 11.6366 14.6101 11.993 14.1519L16 9M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#50945D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>WeCare is Health Care</p> 
+                        </div>
+                        <div class="wecare_text_svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 12L10.5347 14.2812C10.9662 14.6696 11.6366 14.6101 11.993 14.1519L16 9M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#50945D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>Top Rated Doctor’s</p> 
+                        </div>
+                           
+                    </div>
+            </div>
+            <button class="book_now_btn">
+                Book Now
+            </button>
+        </div>
+
+    </div>
+
+    <div class="book_an_appointment">
+        <div class="favorite_doctor_part2">
+            <div class="favorite_doctor_part2_div">
+                 <p>Book Appointment</p>
+               <h1>Book An Online Appointment
+                Today With Us  </h1>
+            <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</span>
+           
+            </div>
+            <div class="wecare">
+                    <div class="green_line"></div>
+                    <div class="wecare_texts">
+                        <div class="wecare_text_svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 12L10.5347 14.2812C10.9662 14.6696 11.6366 14.6101 11.993 14.1519L16 9M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#50945D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>Easy Online Schedule Here</p> 
+                        </div>
+                        <div class="wecare_text_svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M8 12L10.5347 14.2812C10.9662 14.6696 11.6366 14.6101 11.993 14.1519L16 9M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#50945D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <p>Served Directly By Experts</p> 
+                        </div>
+                           
+                    </div>
+            </div>
+            <button class="book_now_btn">
+                Start Consultation
+            </button>
+        </div>  
+
+        <div class="book_an_appointment_part2">
+            <div class="appointment_spec">
+                <img class="appointment_spec_logo" src="{% static 'logos/spec (2).png'%}" alt="">
+            </div>
+            <div class="div_book_doctor_img">
+                  <img class="book_doctor_img2" src="{% static 'images/home/doctor-woman2.png'%}" alt="">
+                  <img class="book_doctor_img" src="{% static 'images/home/doctor_woman.png'%}" alt="">
+                 
+         
+              
+            </div>
+            
+            <svg class="book_doctor_svg" xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" fill="none">
+                <path d="M0 0H353.704C445.547 0 520 74.4534 520 166.296V520H166.296C74.4535 520 0 445.547 0 353.704V0Z" fill="#50945D" fill-opacity="0.1"/>
+            </svg>
+            <div class="main_calendar">
+                <div class="contianer_cal">
+        <div class="calendar">
+          <div class="calendar-header">
+            <span class="month-picker" id="month-picker"> May </span>
+            <div class="year-picker" id="year-picker">
+              <span class="year-change" id="pre-year">
+                <pre><</pre>
+              </span>
+              <span id="year">2020 </span>
+              <span class="year-change" id="next-year">
+                <pre>></pre>
+              </span>
+            </div>
+          </div>
+    
+          <div class="calendar-body">
+            <div class="calendar-week-days">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <div class="calendar-days">
+            </div>
+          </div>
+          
+         
+          <div class="month-list"></div>
+          </div>
+      </div> 
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="meet_our_specialist">
+        <h1>Meet Our Specialist</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="specialists">
+           
+            <div class="specialist">
+                <div class="specialist_img">
+                  <img src="{% static 'images/home/jhanson.png'%}" alt="">  
+                </div>
+                
+                <h4>Johnson Smith</h4>
+                <span>Orthopaedics Specialist</span>
+                <div class="specialist_contact">
+                    <a href=""><img src="{% static 'logos/fb.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/linkedin.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/twitter.png'%}" alt=""></a>
+                </div>
+            </div>
+            <div class="specialist">
+                <div class="specialist_img">
+                  <img src="{% static 'images/home/jhanson.png'%}" alt="">  
+                </div>
+                
+                <h4>Johnson Smith</h4>
+                <span>Orthopaedics Specialist</span>
+                <div class="specialist_contact">
+                    <a href=""><img src="{% static 'logos/fb.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/linkedin.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/twitter.png'%}" alt=""></a>
+                </div>
+            </div>
+            <div class="specialist">
+                <div class="specialist_img">
+                  <img src="{% static 'images/home/jhanson.png'%}" alt="">  
+                </div>
+                
+                <h4>Johnson Smith</h4>
+                <span>Orthopaedics Specialist</span>
+                <div class="specialist_contact">
+                    <a href=""><img src="{% static 'logos/fb.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/linkedin.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/twitter.png'%}" alt=""></a>
+                </div>
+            </div>
+            <div class="specialist">
+                <div class="specialist_img">
+                  <img src="{% static 'images/home/jhanson.png'%}" alt="">  
+                </div>
+                
+                <h4>Johnson Smith</h4>
+                <span>Orthopaedics Specialist</span>
+                <div class="specialist_contact">
+                    <a href=""><img src="{% static 'logos/fb.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/linkedin.png'%}" alt=""></a>
+                    <a href=""><img src="{% static 'logos/twitter.png'%}" alt=""></a>
+                </div>
+            </div>
+           
+           
+        </div>
+    </div>
+
+
+    <div class="client_say">
+        <h1>What’s Our Client Says</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        <div class="clients">
+            <div class="cleint">
+                <div class="client_icons">
+                    <div class="client_icon_part1">
+                        <img src="{% static 'logos/“.png'%}" alt=""> 
+                    </div>
+                   
+                    <div class="stars">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+
+                    </div>
+                    
+                </div>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                
+                    <div class="comment">
+                        <div class="comment_img ">
+                             <img src="{% static 'images/home/cameron.png'%}" alt=""></div>
+                       
+                        <div class="commment_name">
+                            <h4>Cameron Williamson</h4>
+                            <span>London, United Kingdom</span>
+
+                        </div>
+                    </div>
+
+            </div>
+            <div class="cleint">
+                <div class="client_icons">
+                    <div class="client_icon_part1">
+                        <img src="{% static 'logos/“.png'%}" alt=""> 
+                    </div>
+                   
+                    <div class="stars">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+                        <img src="{% static 'logos/star.png'%}" alt="">
+
+                    </div>
+                    
+                </div>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                
+                    <div class="comment">
+                        <div class="comment_img ">
+                             <img src="{% static 'images/home/cameron.png'%}" alt=""></div>
+                       
+                        <div class="commment_name">
+                            <h4>Cameron Williamson</h4>
+                            <span>London, United Kingdom</span>
+
+                        </div>
+                    </div>
+
+            </div>
+           
+            
+        </div>
+    </div>
+
+    </div>
+    
+  
+{%endblock body%}
+

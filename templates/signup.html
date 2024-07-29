@@ -1,0 +1,46 @@
+{% extends "alfa.html" %}
+{% load static %}
+
+
+{% block body%}
+<div class="signup_container">
+    <div class="signup_img_container"><img src="{% static 'images/register/login.jfif' %}" alt="login"> </div>
+    
+    <div class="signup_form_container">
+        <div class="signup_logo">logos
+
+
+            {% if messages %}
+            <ul class="messages">
+                {%for message in messages%}
+                <li> {{message}} </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+
+
+        </div>
+
+        <div class="signup_form">
+            <h2>Create New Account</h2>
+            <p>Please login here</p><br><br>
+                     
+
+           <form method="Post">
+
+            {% csrf_token %}
+            
+            {{form.as_p}}
+
+           <button>Sign Up</button>
+            </form>
+
+           
+            
+
+        </div>
+    </div>
+</div>
+{%endblock body%}
+
