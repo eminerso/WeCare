@@ -1,0 +1,237 @@
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.background_contactus {
+  background-image: url( '{% "/images/contactus/Rectangle.svg" %}' );
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+.container_contactus li{
+  color: var(--White-500, #FFF);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.container_contactus{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* BELE AYIRMALISAN TAGLARI */
+.container_contactus h1{ 
+  color: var(--White-500, #FFF);
+
+/* Header-2 Bold */
+font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 133.333% */
+
+}
+.content {
+  position: absolute;
+  bottom: 80px;
+  left: 150px;
+  color: white;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-top: 10px;
+}
+.breadcrumb-item {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.breadcrumb i {
+  margin: 0 5px;
+}
+.breadcrumb-item.active {
+  color: white;
+}
+.section-left {
+  width: 555px;
+  height: 467px;
+  margin-left: 150px;
+  gap: 50px;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.section-right {
+  width: 484px;
+  height: 600px;
+  margin-right: 220px;
+  border: 1px solid #aeb4af33;
+  border-radius: 10px;
+  float: right;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 55px 70px 0px #00000008;
+}
+
+.left-content {
+  padding: 20px;
+
+}
+.left-content h1 {
+  color: var(--Dark-500, #0E140F);
+
+/* Header-3 Bold */
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 135% */
+ 
+  
+}
+/* BELE YAZMISAN BAX DUZGUNDU BU */
+/* AMA CSSLERI FIGMADA USTUNE VURURSAN QIRAQA DUSUR ONU KOPYALAYIB ATMALISAN */
+
+.left-content p {
+  color: var(--Gray-500, #AEB4AF);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.right-content {
+  padding: 20px;
+}
+.contact-info {
+  margin-top: 60px;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  color: black;
+}
+.contact-item i {
+  margin-left: 10px;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:15px;
+}
+.contact-text p {
+  color: var(--Gray-500, #AEB4AF);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.contact-address p {
+  color: var(--Dark-500, #0E140F);
+
+  /* Header-7 Regular */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.contact-phone p {
+  color: var(--Dark-500, #0E140F);
+
+  /* Header-7 Regular */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.contactus_social_icons{
+ 
+  display: flex;
+  gap: 15px;
+ 
+}
+.social-icons img {
+  width: 18px;
+  height: 18px;
+}
+.contactus_form {
+  margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+
+.contactus_form_group label {
+  color: var(--Dark-500, #0E140F);
+
+  /* Caption Regular */
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+.contactus_form_group input,textarea {
+  display: flex;
+  width: 444px;
+  height: 56px;
+  padding: 16px 16px 14px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 0;
+}
+.contactus_form_group input::placeholder,textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #aeb4af;
+}
+.contactus_form  button {
+  display: inline-block;
+  background-color: #50945d;
+  color: white;
+  padding: 15px 175px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.contactus_form  button:hover {
+  background-color: #3c6e47;
+}
+.main_section{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}

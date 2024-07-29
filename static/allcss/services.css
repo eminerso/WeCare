@@ -1,0 +1,239 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body { 
+	font-family: Arial, sans-serif; 
+
+} 
+
+.service_container  { 
+	width: 1440px;
+    max-width: 100%;
+ 
+  
+   
+} 
+
+.pagination { 
+	text-align: end;
+	margin: 100px;
+} 
+
+.pagination a { 
+	color: #007BFF; 
+	padding: 8px 16px; 
+	text-decoration: none; 
+	border: 1px solid #007BFF; 
+	margin: 0 5px; 
+	border-radius: 4px; 
+} 
+
+.pagination a:hover { 
+	background-color: #007BFF; 
+	color: white; 
+} 
+
+.pagination .active { 
+	background-color: #007BFF; 
+	color: white; 
+} 
+
+
+.service_card-container { 
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+    margin-top: 50px;
+	
+} 
+:root{
+    --col_blog-:3;
+   }
+   
+    
+
+.card { 
+	border: 1px solid #ddd; 
+	border-radius: 10px; 
+	box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 366px;
+      
+} 
+
+
+.card h1{
+    color: var(--Dark-500, #0E140F);
+
+/* Header-6 Bold */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.card p{
+    color: var(--Gray-500, #AEB4AF);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.card button{
+    display: flex;
+width: 366px;
+height: 56px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid var(--Primary-500, #50945D);
+color: var(--Primary-500, #50945D);
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+cursor: pointer;
+}
+
+#page-numbers { 
+	margin-top: 20px; 
+	font-size: 16px; 
+}
+.service_head_img{
+    position: relative;
+    
+    height: 550px;
+
+}
+.service_head_img img{
+    width: 100%;
+}
+  
+  /* Display list items side by side */
+  .breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  .breadcrumb li+li:before {
+    padding: 8px;
+    color: var(--White-500, #FFF);
+    content: ">\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  .breadcrumb li a {
+color: var(--White-500, #FFF);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+    /* Body-1 Regular */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  
+  /* Add a color on mouse-over */
+  .breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  .service_img_text{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: 10;
+  }
+  .service_img_text h2{
+    color: var(--White-500, #FFF);
+
+/* Header-2 Bold */
+font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 133.333% */
+  }
+  .service_card_img{
+    width: 366px;
+height: 260px;
+border-radius: 16px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+overflow: hidden;
+  }
+
+  .service_card_img img{
+    width: 100%;
+  }
+.sort_services{
+  margin-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.sort_services_part1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sort_services_part2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.services_specialist_doctors_img{
+  position: relative;
+  
+ 
+}
+.services_specialist_doctors{
+
+  display: flex;
+align-items: center;
+margin-top: 20px;
+  margin-bottom: 40px;
+  gap:150px;
+  
+
+}
+.services_specialist_doctors p{
+  padding-top: 50px;
+  color: var(--Dark-500, #0E140F);
+
+/* Body-1 Regular */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}

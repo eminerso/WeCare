@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.login_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.login_img_container{
+    width: 50%;
+    height: 100%;
+}
+.login_img_container >img{
+    width: 100%;
+    height: 100%;
+}
+.login_form_container{
+    display:flexbox;
+    width: 50%;
+    height: 100%;
+}
+.login_logo{ 
+    width: 100%;
+    height: 250px;
+}
+.login_form{
+    width: 100%;
+    padding: 50px;
+}
+form{
+    width: 80%;
+}
+.login_input{
+border: solid green 1px  ; 
+border-radius: 10px;
+height: 55px;  
+width: 100%;
+}
+button{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border-radius:10px ;
+    border: none;
+}
